@@ -1,11 +1,11 @@
-# Heroku-API-Key-Tester
+# Heroku API Key Tester
 
 ## Overview
 This Bash script is designed to test multiple Heroku API keys by making requests to the Heroku Platform API. It retrieves information about Heroku apps associated with each API key and saves the results to a text file for analysis.
 
 ## Features
 - **Multiple API Key Support**: Test multiple Heroku API keys at once by providing a list of keys in a text file.
-- **Rate Limiting**: The script automatically limits the number of requests made to 10 per second to comply with the Heroku API rate limits.
+- **Rate Limiting**: The script automatically limits the number of requests made to 10 per second.
 - **Detailed Results**: Results of each API key's requests are saved to an output file, including key-specific output for analysis.
 
 ## Prerequisites
